@@ -1,0 +1,34 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [20/71] - Où écrire le CSS
+Lien : https://www.youtube.com/watch?v=cpdZsua3zLY&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=20
+
+Dans ce programme on apprend où écrire en css selon les 3 méthodes suivantes
+1/ ajout des balises style dans l'élément head qui permet de mettre en forme l'élément html souhaité (body, h1, h2, p...) ;
+2/ ajout de l'attribut style directement dans la balise ouvrante des éléments html qui permet de cibler le texte à mettre en forme ;
+3/ écriture de la méthode dans un fichier séparé (ici : 20_EcrireCSS.css)
+Les 2 premières méthodes ci-dessus ne sont pas recommandées car il faut écrire un code CSS pour chaque page html (comme c'est le cas ci-dessous)
+
+Éditeur : Laurent REYNAUD
+Date : 09-02-2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS</title>
+		<meta charset="utf-8">
+		<!-- Instruction pour écrire la méthode CSS dans un fichier séparé -->
+		<link rel="stylesheet" type="text/css" href="20_EcrireCSS.css">
+		<!-- Ajout des balises style dans l'élément head -->
+		<style type="text/css">
+			body{
+				color: white
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Je suis un titre</h1>
+		<!-- Ajout de l'attribut style directement dans la balise ouvrante de cet élément html -->
+		<p style="text-decoration: underline">Je suis un paragraphe</p>
+	</body>
+</html>

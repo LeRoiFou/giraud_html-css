@@ -1,0 +1,46 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [24/71] - L'héritage en CSS
+Lien : https://www.youtube.com/watch?v=iKTJeEuIUj0&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=24
+
+Dans l'exemple ci-dessous, les éléments h1 et p sont dans le bloc d'instruction de l'élément body.
+On dit que les éléments h1 et p héritent de l'élément body. 
+Par conséquent lorsqu'on configure l'élément body dans le fichier css, ceci va s'appliquer automatiquement par principe, dans tous les éléments 'enfants' de l'élément body, à savoir dans cet exemple, les éléments h1 et p, seulement si aucun sélecteur n'est déclaré en css.
+
+Lorsqu'il y a conflit de styles dans les éléments, l'ordre de priorité est le suivant :
+-> style inséré dans la balise ouvrante de l'élément déclaré en html ;
+-> sélecteur en css de l'attribut id ;
+-> sélecteur en css de l'attribut class ;
+-> style inséré dans l'élément head en html ;
+-> sélecteur en css de l'élément enfant ;
+-> héritage de l'élément parent.
+
+Éditeur : Laurent REYNAUD
+Date : 15-02-2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="024_heritageCSS.css">
+		<style>
+			p{
+				color:purple;
+			}
+		</style>
+	</head>
+	<!-- tous les éléments qui n'ont aucun autre style, par défaut, les caractères hériteront donc de la couleur bleue -->
+	<body>
+		<!-- aucun style déclaré en css pour l'élément h1, les caractères héritent donc de la couleur bleue -->
+		<h1>Je suis un titre</h1>
+		<!-- sélecteur déclaré en css pour l'élément p : les caractères de cet élément auront la couleur violette car un style est déclaré dans l'élément head ci-dessus -->
+		<p>Je suis un premier paragraphe</p>
+		<!-- style déclaré en html pour l'élément p : les caractères de cet élément auront donc la couleur jaune -->
+		<p style="color:yellow">Je suis un deuxième paragraphe</p>
+		<!-- sélecteur attribut id déclaré pour cet élément p : les caractères de cet élément auront donc la couleur verte -->
+		<p id="para">Je suis un troisième paragraphe</p>
+		<!-- sélécteur attribut class déclaré pour cet élément p : les caractères auront donc la couleur grise -->
+		<p class="para">Je suis un quatrième paragraphe</p>
+	</body>
+</html>

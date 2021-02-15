@@ -1,0 +1,33 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [26/71] - Les éléments HTML div et span
+Lien : https://www.youtube.com/watch?v=_QJx7gOt5iU&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=26
+
+L'élément div est un élément de type block alors que l'élément span est un élément de type inline.
+
+L'élément div intervient en tant que conteneur pour d'autres éléments.
+Le fait que c'est un élément de type block, tous les styles appliqués dans les élements de ce conteneur vont s'appliquer sur toute la ligne de la page du navigateur à la différence d'un élément de type inline pour lequel le style ne s'applique que pour les caractères qui bénéficient de ce type.
+
+L'élément span intervient de manière 'ciblée' qui permet d'éviter de mettre des styles directement dans la page html (pour rappel mettre des styles dans une page html est fortement déconseillé), et qui va encadrer plusieurs éléments html.
+
+Éditeur : Laurent REYNAUD
+Date : 15-02-2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases HTML & CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="026_elementsDiv&Span.css">
+	</head>
+	<body>
+		<h1>Div et span</h1>
+		<!-- Elément div qui agit en tant que conteneur d'éléments -->
+		<div class="div-para">
+			<p>L'élément est un élément de type block</p>
+			<p>Un <strong>autre</strong> paragraphe</p>
+		</div>
+		<!-- Insertion d'un élément span -->
+		<p>Un <span class="span-para">troisième</span> paragraphe</p>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [23/71] - Les attributs id et class
+Lien : https://www.youtube.com/watch?v=n5VUTYBLL-E&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=23
+
+Les attributs id et class permettent de cibler en élément en particulier. 
+À cela :
+-> dans le fichier html on instruit le type d'attribut dans la balise ouvrante de l'élément, en donnant un nom à cet attribut ;
+-> dans le fichier css le nom de l'attribut est précédé soit par un '#' pour l'id soit par un '.' pour la class.
+
+Dans la différence entre ces 2 attributs est que :
+-> le nom de la valeur de l'id ne peut plus être utilisé à nouveau dans la même page html ;
+-> le nom de la valeur de la class peut être utilisé autant de fois qu'on le souhaite dans la même page html.
+
+On peut mettre un attribut id et un attribut class dans le même élément.
+Dans le cas où il y a conflit entre les deux attributs dans un même élément (par exemple l'attribut id il y a la couleur rouge et dans l'attribut class il y a la couleur bleue), c'est l'attribut id qui s'applique en priorité.
+
+Éditeur : Laurent REYNAUD
+Date : 15-02-2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="23_AttributsId&Class.css">
+	</head>
+	<body>
+		<h1>Je suis un titre</h1>
+		<!-- id p1 = caractères en couleur bleu -->
+		<p id="p1">Je suis le premier paragraphe</p>
+		<!-- class p1 = caractères en couleur rouge -->
+		<p class="p1">Je suis le deuxième paragraphe</p>
+		<!-- class p1 = caractères en couleur rouge et id p2 = caractères en gras -->
+		<p class="p1" id="p2">Je suis le troisième paragraphe</p>
+		<!-- class p1 = caractères en couleur rouge et id p3 = caractères couleur vert, il y a conflit donc l'id p3 qui s'applique -->
+		<p class="p1" id="p3">Je suis le quatrième paragraphe</p>
+	</body>
+</html>

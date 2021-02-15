@@ -1,0 +1,45 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [16/71] - Autres types de liens HTML
+Lien : https://www.youtube.com/watch?v=Z2-Fmme7NTk&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=16
+
+Dans ce programme on apprend à :
+-> accéder à un point précis dans une page html avec l'ancre, instruction notamment utilisée pour les longues pages  ;
+-> un lien pour pouvoir envoyer en e-mail à la condition d'avoir configuré une boîte email par défaut
+-> un lien pour télécharger un fichier (de type pdf, word...)
+
+Pour télécharger une image, on utilise la balise orpheline <img> en recourant à deux attributs :
+-> src (source) qui permet de récupérer l'endroit où se trouve l'image ;
+-> alt (alternative) qui permet de décrire l'image
+
+Éditeur : Laurent REYNAUD
+Date : 09-02-2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Les bases en HTML</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Les liens courriels</h1>
+		<!-- Instruction pour envoyer directement un e-mail -->
+		<p>Envoyer <a href="mailto:alice031172@mail.com">un mail</a></p>
+		<!-- Instruction pour télécharger un fichier -->
+		<h1>Télécharger un fichier</h1>
+		<p>Télécharger la <a href="pieces/Impots.pdf">documentation</a></p>
+		<!-- Les instructions ci-après sont pour les ancres -->
+		<h1>Les ancres en HTML</h1>
+		<!-- Instruction pour accéder à l'ancre 1 -->
+		<p>Accès direct à notre ancre <a href="#ancre1">"ancre1"</a></p>
+		<p>Accès direct à notre ancre <a href="#ancre2">"ancre2"</a></p>
+		<p><br><br><br><br><br><br><br>S<br><br><br><br><br><br><br>A<br><br><br><br><br><br><br>U<br><br><br><br><br><br>T</p>
+		<p><br><br><br><br><br><br>DE<br><br><br><br><br><br>L<br><br><br><br><br><br>I<br><br><br><br><br><br>G<br><br><br><br><br><br>G<br><br><br><br><br><br>N<br><br><br><br><br><br>E</p>
+		<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+		<!-- Instruction pour se retrouver directement à l'ancre 1 --> 
+		<h2 id="ancre1"> Une première ancre</h2>
+		<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+		<h2 id="ancre2"> Une deuxième ancre</h2>
+		<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+	</body>
+</html>

@@ -1,0 +1,93 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [14/71] - Les listes en HTML
+Lien : https://www.youtube.com/watch?v=6-Kbwgd6coU&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=14
+
+Dans ce programme on apprend à faire :
+-> des listes non ordonnées (= unordered list -> ul) pour des articles qui n'ont aucun lien entre eux ;
+-> des listes ordonnées (= ordered list -> ol) pour des articles qui ont un lien entre eux, un ordre ou une progression logique ;
+-> des listes de définition qui permet de définir les termes des articles attachés à cette liste. Pour créer une liste de définition on va utiliser 3 éléments :
+	. la liste de description (= description list -> dl) ;
+	. l'élément 'terme' à définir (=description term -> dt) ;
+	. définition du terme (=description definition -> dd) ;
+-> des listes imbriquées qui permettent d'imbriquer une liste dans une autre liste et ainsi de suite.
+
+Pour les listes non ordonnées et ordonnées, on va lister chacun de ces articles de la liste entre des balisages ouvrants et fermants : <li> (=list item -> élément de liste).
+
+Lorsqu'on ouvre le navigateur :
+-> pour une liste non ordonnée, chacun de ces articles affichés est précédé d'une puce ;
+-> pour une liste ordonnée, chacun de ces articles affichés est précédé d'un numéro (1, 2, 3..).
+
+Pour une liste ordonnée on peut changer la numérotation 'classique' des articles par :
+-> une numérotation en majuscule en chiffres romains (I, II, III...) ;
+-> une numérotation en minuscule en chiffres romains (i, ii, iii...) ;
+-> des lettres en majuscules (A, B, C...) ;
+-> des lettres en minuscules (a, b, c...).
+
+Éditeur : Laurent REYNAUD
+Date : 08-02-2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<ul>  <!-- Liste non ordonnée -->
+			<li>Pomme</li>
+			<li>Vélo</li>
+			<li>Guitare</li>
+		</ul>
+		<ol>  <!-- Liste ordonnée avec une numérotation classique des chiffres -->
+			<li>Introduction</li>
+			<li>Partie I</li>
+			<li>Partie II</li>
+			<li>Partie III</li>
+			<li>Conclusion</li>
+		</ol>
+		<ol type="I">  <!-- Liste ordonnée avec une numérotation des chiffres romains en majuscules -->
+			<li>Introduction</li>
+			<li>Partie I</li>
+			<li>Partie II</li>
+			<li>Partie III</li>
+			<li>Conclusion</li>
+		</ol>
+		<ol type="i">  <!-- Liste ordonnée avec une numérotation des chiffres romains en minuscules -->
+			<li>Introduction</li>
+			<li>Partie I</li>
+			<li>Partie II</li>
+			<li>Partie III</li>
+			<li>Conclusion</li>
+		</ol>
+		<ol type="A">  <!-- Liste ordonnée avec une numérotation des lettres en majuscules -->
+			<li>Introduction</li>
+			<li>Partie I</li>
+			<li>Partie II</li>
+			<li>Partie III</li>
+			<li>Conclusion</li>
+		</ol>
+		<ol type="a">  <!-- Liste ordonnée avec une numérotation des lettres en minuscules -->
+			<li>Introduction</li>
+			<li>Partie I</li>
+			<li>Partie II</li>
+			<li>Partie III</li>
+			<li>Conclusion</li>
+		</ol>
+		<dl>  <!-- Liste de description -->
+			<dt>HTML</dt>  <!-- Terme à définir -->
+			<dd>HTML signifie : HyperTexte Markup Language</dd>  <!-- Définition du terme -->
+		</dl>
+		<ol>  <!-- Liste ordonnée avec une numérotation clasiqque des chiffres -->
+			<li>Partie I
+				<ul>  <!-- Liste non ordonnée imbriquée dans la 'Partie I' de la liste imbriquée -->
+					<li>Définitions</li>
+					<li>Auteurs</li>
+					<li>Exemples</li>
+				</ul>
+			</li>
+			<li>Partie II</li>
+			<li>Partie III</li>
+		</ol>
+	</body>
+</html>
