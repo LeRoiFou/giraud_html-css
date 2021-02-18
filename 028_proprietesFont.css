@@ -1,0 +1,15 @@
+body{
+	font-family: 'Reggae One', cursive;
+}
+
+h1{
+	font-size: 100px;  /*taille en valeur absolue*/
+	font-style: italic;
+	font-weight: normal;  /*le titre d'origine gras d'origine, le sera moins*/
+}
+
+p{
+	font-size: 150%;  /*taille en valeur relative*/
+	font-style: oblique;
+	font-weight: 700;  /*valeur bold*/
+}

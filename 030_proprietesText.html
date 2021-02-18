@@ -1,0 +1,66 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [30/71] - Propriétés CSS de type text
+Lien : https://www.youtube.com/watch?v=3FuyMvgBfy8&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=30
+
+7 MINUTES ET 55 SECONDES
+
+Dans ce programme on apprend les différents types de propriété CSS :
+. text-align : permet de définir l'alignement du texte
+. text-transform : permet de mettre en minuscule/majuscule du texte
+. text-decoration : permet d'ajouter ou d'enlever des décorations du texte
+. text-indent : permet de gérer l'indentation du texte
+. text-shadow : permet de créer des ombres autour des textes
+
+Avec le type text-align, on peut choisir l'alignement du texte parmis 5 valeurs : 
+-> left : alignement à gauche 
+-> right : alignement à droite 
+-> center : alignement au centre 
+-> justify : alignement justifié 
+-> inherit : hérite l'alignement de l'élément parent
+
+Avec le type text-transform, on peut choisir également 5 valeurs : 
+-> lowercase : minuscule
+-> uppercase : majuscule
+-> capitalize : 1ère lettre de chaque mot en majuscule
+-> inherit : hériter la valeur de l'élément parent
+-> none : non-transformation du texte (utilisé notamment en cas d'héritage)
+
+Avec le type text-decoration, on peut choisir 6 décorations :
+-> underline : le texte est souligné
+-> overline : ajouter une ligne au-dessus du texte
+-> line-through : barrer le texte
+-> inherit : hériter la valeur de l'élément parent
+-> initial : utiliser la valeur par défaut de la propriété
+-> none : enlever toute décoration (utilisé notamment pour supprimer le soulignement du texte en hyperlien)
+
+Le type text-indent accepte aussi bien des valeurs absolues (px) que des valeurs relatives (%).
+On peut également lui attribuer des valeurs négatives, c'est à dire que le texte est vers la gauche cette fois-ci.
+Cependant si la propriété text-align est déjà utilisé dans un élément, la propriété text-indent ne fonctionnera pas.
+
+Le type text-shadow comporte 4 valeurs à intialiser dans un ordre bien précis :
+-> projection horizontale de l'ombre en pixels
+-> projection verticale de l'ombre en pixels
+-> rayon de propagation de l'ombre en pixels (radius)
+-> couleur de l'ombre (noms en anglais ou hexadécimal ou RGB)
+
+Éditeur : Laurent REYNAUD
+Date : 18-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases HTML et CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="030_proprietesText.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Propriétés de type text</h1>
+		<p class="p1">Un paragraphe</p>
+		<p class="p2">Un deuxième paragraphe</p>
+		<p>Le <a href="https://www.youtube.com/watch?v=3FuyMvgBfy8&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=30">lien</a> du cours actuel</p>
+		<p class="p3">Un quatrième paragraphe</p>
+	</body>
+</html>

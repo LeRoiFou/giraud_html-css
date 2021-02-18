@@ -1,0 +1,21 @@
+body{
+	font-family: 'Hanalei Fill', cursive;
+}
+
+h1{
+
+}
+
+.p1{
+	line-height: 20px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+
+}
+
+.p2{
+	line-height: 40px;
+	letter-spacing: -20px;
+	text-align: right;
+	word-spacing: -10px;
+}

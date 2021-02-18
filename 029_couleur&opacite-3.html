@@ -1,0 +1,39 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [29/71] - Couleur et opacité en CSS
+Lien : https://www.youtube.com/watch?v=fmdozyP2ZzI&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=29
+
+Il existe différents types de valeurs pour "color" :
+-> valeurs en anglais mais limitées à 16 couleurs ;
+-> valeurs en hexadécimal qui permettent de récupérer 16 millions de couleurs ;
+-> valeurs en RGB (red green blue) qui permettent également de récupérer 16 millions de couleurs.
+
+Les valeurs en RGB se comptent en base 10 à la différences des valeurs hexadécimales, entre 0 et 255 pour chaque suite de couleur R,G et B.
+Ce qui permet d'obtenir 255 x 255 x 255 = 16 581 375 couleurs.
+Plus la valeur est proche de 255 et plus la couleur est claire et inversement pour une couleur foncée.  Donc le code RGB pour la couleur :
+-> noire = 0, 0, 0
+-> blanche = 255, 255, 255
+
+L'avantage des valeurs RGB c'est qu'on peut rajouter l'opacité de la couleur, à cela RGB devient RGBa. La valeur de l'opacité est comprise entre 0 et 1, et plus on se rapproche de la valeur 0 et plus les caractères concernés deviennent transparents et inversement les caractères deviennent opaques.
+
+On a également la possibilité de faire appel à la propriété 'opacity' dans le CSS, notamment lorsqu'on a recours à des valeurs de couleurs en anglais ou en héxadécimal.
+
+Éditeur : Laurent REYNAUD
+Date : 18-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases HTML & CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="029_couleur&opacite-3.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Gestion de la couleur</h1>
+		<p class="p1">Un paragraphe</p>
+		<p class="p2">Deuxième paragraphe</p>
+		<p class="p3">Troisième paragraphe</p>
+	</body>
+</html>

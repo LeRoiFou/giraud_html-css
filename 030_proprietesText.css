@@ -1,0 +1,33 @@
+body{
+	font-family: 'Kaushan Script', cursive;
+}
+
+h1{
+	text-align: center;  /*alignement du texte au centre de la page*/
+	text-transform: uppercase;  /*tous le texte est en majuscule*/
+	text-decoration: underline;  /*le texte est souligné*/
+	text-shadow: 2px 2px 5px teal; /*ombre à droite en bas avec une propagation de 5 pixels et de couleur vert/bleu*/
+}
+
+.p1{
+	text-align: right;  /*alignement du texte à droite de la page*/
+	text-transform: lowercase;  /*tous le texte est en minuscule*/
+	text-decoration: overline  /*sur-lignement du texte*/
+	text-indent: 90%;  /*cette propriété ne marchera pas car dans ce sélecteur a déjà la propriété text-align*/
+	text-shadow: 0px 3px 4px #444;  /*ombre en bas avec une propagation de 4 pixels et de couleur gris foncé */
+}
+
+.p2{
+	text-transform: capitalize;  /*la première lettre de chaque mot est en majuscule*/
+	text-decoration: line-through;  /*le texte est barré*/
+	text-indent: -50px /*le texte est décalé sur la gauche à - 50 pixels*/
+}
+
+a{
+	text-decoration: none;  /*suppression du soulignement qui apparaît automatiquement pour les hyperliens*/  
+	text-shadow: -2px -2px 4px blue;  /*ombre à gauche en haut avec une propagation de 4 pixels et de couleur bleu*/
+}
+
+.p3{
+	text-indent: 40%
+}

@@ -1,0 +1,32 @@
+body{
+	font-family: 'Risque', cursive;
+}
+
+h1{
+	/*Red avec une valeur de 255 en base 10 soit FF en base 16*/
+	/*Green avec une valeur de 0 en base 10 soit 00 en base 16*/
+	/*Blue avec une valeur de 0 en base 10 soit 00 en base 16*/
+	color: #FF0000  /*valeur hexadécimale pour la couleur rouge*/
+}
+
+.p1{
+	/*Red avec une valeur de 0 en base 10 soit 00 en base 16*/
+	/*Green avec une valeur de 0 en base 10 soit 00 en base 16*/
+	/*Blue avec une valeur de 255 en base 10 soit FF en base 16*/
+	color: #0000FF  /*valeur hexadécimale pour la couleur bleue*/
+}
+
+.p2{
+	/*Red avec une valeur de 0 en base 10 soit 00 en base 16*/
+	/*Green avec une valeur de 255 en base 10 soit FF en base 16*/
+	/*Blue avec une valeur de 0 en base 10 soit 00 en base 16*/
+	/*0F0 équivaut à 00FF00 -> on 'résume' la valeur hexadécimale*/
+	color: #0F0  /*valeur hexadécimale pour la couleur bleulaune (merci Reese !)*/
+}
+
+.p3{
+	/*Red avec une valeur de 255 en base 10 soit FF en base 16*/
+	/*Green avec une valeur de 0 en base 10 soit 00 en base 16*/
+	/*Blue avec une valeur de 255 en base 10 soit FF en base 16*/
+	color: #FF00FF;  /*valeur hexadécimale pour la couleur violette*/
+}

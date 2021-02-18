@@ -1,0 +1,32 @@
+body{
+	font-family: 'Risque', cursive;
+}
+
+h1{
+	/*Red avec une valeur de 255 en base 10*/
+	/*Green avec une valeur de 0 en base 10*/
+	/*Blue avec une valeur de 0 en base 10*/
+	color: rgb(255,0,0)  /*valeur RGB pour la couleur rouge*/
+}
+
+.p1{
+	/*Red avec une valeur de 0 en base 10*/
+	/*Green avec une valeur de 0 en base 10*/
+	/*Blue avec une valeur de 255 en base 10*/
+	color: rgb(0,0,255) /*valeur RGB pour la couleur bleue*/
+}
+
+.p2{
+	/*Red avec une valeur de 0 en base 10*/
+	/*Green avec une valeur de 255 en base 10*/
+	/*Blue avec une valeur de 0 en base 10*/
+	color: rgba(0,255,0,0.5)  /*valeur RGB pour la couleur bleulaune (merci Reese !) avec une opacité à 50 %*/
+}
+
+.p3{
+	/*Red avec une valeur de 255 en base 10*/
+	/*Green avec une valeur de 0 en base 10*/
+	/*Blue avec une valeur de 255*/
+	color: rgb(255,0,255);  /*valeur RGB pour la couleur violette*/
+	opacity: 0.9  /*degré d'opacité à 90 %*/
+}

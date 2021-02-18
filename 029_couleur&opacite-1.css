@@ -1,0 +1,15 @@
+body{
+	font-family: 'Risque', cursive;
+}
+
+h1{
+	color: maroon;  /*valeur de la couleur en anglais*/
+}
+
+.p1{
+	color: lime;  /*valeur de la couleur en anglais*/
+}
+
+.p2{
+	color: teal;  /*valeur de la couleur en anglais*/
+}
