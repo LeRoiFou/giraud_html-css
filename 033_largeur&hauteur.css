@@ -1,0 +1,22 @@
+body{
+	font-family: 'Rye', cursive;
+}
+
+.div1{
+	height: 400px;
+	width: 500px;
+	background-color: #088;
+}
+
+.p1{
+	height: 100px;
+	width: 400px;
+	padding: 60px;  /*Attention : la hauteur passe de 400px + 60px en haut + 60px en bas = 520px > hauteur de la classe div1*/
+	background-color: #FA0;
+}
+
+.p2{
+	height: 50%;  /*Attention la hauteur dépasse la hauteur de la calsse parent div1*/
+	width: 50%;
+	background-color: #A55;
+}

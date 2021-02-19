@@ -1,0 +1,11 @@
+body{
+	font-family: 'Stick', sans-serif;
+}
+
+.div1{
+	background-color: #088;  /*code hexadécimal : #008888 -> intensité moyenne des couleurs vertes et bleues*/
+	width: 500px;
+	padding: 20px;
+	border: 20px solid #0C0;
+	margin: 50px;
+}
