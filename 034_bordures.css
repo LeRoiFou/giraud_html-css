@@ -1,0 +1,36 @@
+body{
+	font-family: 'Reggae One', cursive;
+}
+
+.div1{
+	height: 400px;
+	width:	500px;
+	background-color: #088;
+	border: 20px ridge black;  /*propriété 'courte' de border comprenant les 3 valeurs*/
+	border-radius: 15px  /*arrondi de la bordure*/
+}
+
+.h{
+	border-bottom: 20px double gray;  /*propriété 'courte' de border comprenant les 3 valeurs pour la bordure du bas*/
+	border-right: 10px dotted blue;  /*propriété 'courte' de border comprenant les 3 valeurs pour la bordure de droite*/
+}
+
+.p1{
+	height: 100px;
+	width: 50%;
+	background-color: blue;
+	border-width: 2px;  /*largeur de la bordure du haut*/
+	border-style: inset;  /*style de la bordure du haut*/
+	border-color: yellow;  /*couleur de la bordure du haut*/
+	border-top-left-radius: 5px; /*arrondi de la bordure en haut à gauche*/
+	border-bottom-right-radius: 5px;  /*arrondi de la bordure en bas à droite*/
+}
+
+.p2{
+	border-top-width: 2px;  /*largeur de la bordure du haut*/
+	border-top-style: groove;  /*style de la bordure du haut*/
+	border-top-color: teal;  /*couleur de la bordure du haut*/
+	border-left-width: 5px;  /*largeur de la bordure de gauche*/
+	border-left-style: solid;  /*style de la bordure de gauche*/
+	border-left-color: lime;  /*couleur de la bordure de gauche*/
+}
