@@ -1,0 +1,8 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+	background-image: url('images/earth.png'), url('images/rabbit.png'), url('images/sky.png');  /*chargement des images*/
+	background-size: 25%, 25%, 50%;  /*taille de la largeur des images en valeur relative*/
+	background-repeat: no-repeat, no-repeat, no-repeat;  /*les images de fond ne se répètent pas*/
+	background-attachment: fixed, scroll, fixed;  /*fixation des images*/
+	background-position: top left, 300px 300px, bottom right;  /*position des images*/
+}

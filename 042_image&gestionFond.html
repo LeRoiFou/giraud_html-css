@@ -1,0 +1,50 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [42/71] - Images de fond et gestion du fond
+Lien : https://www.youtube.com/watch?v=ghvPZcoJx_o&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=42
+
+Dans ce programme on apprend à redimensionner une image avec la propriété CSS background-size qui comprend 2 valeurs :
+. la nouvelle valeur de la largeur de l'image
+. la nouvelle valeur de la hauteur de l'image
+On peut donner une valeur absolue ou une valeur relative -> dans ce dernier cas, il est préconisé de ne donner qu'une valeur relative uniquement pour la largeur de l'image, et de ne pas mettre de valeur pour la hauteur de l'image qui va s'adapter automatiquement à la largeur de l'image
+
+On peut également intervenir sur la 'répétition' de l'image avec la propriété CSS background-repeat, selon l'une des valeurs suivantes :
+. no-repeat -> l'image ne se répète pas
+. repeat-x -> l'image se répète sur toute une largeur
+. repeat-y -> l'image se répète sur toute une hauteur
+
+Avec la propriété background-attachement, on dispose de deux valeurs :
+. scroll -> valeur par défaut pour laquelle lorsqu'on descend la page @, l'image disparaît au fur et à mesure
+. fixed -> l'image ne bouge pas même lorsqu'on descend la page
+
+La propriété background-position permet de positionner une ou plusieurs images de fond qui dispose de deux types de valeurs pour la position :
+. 'top' 'right' 'bottom' 'left'
+. valeurs en pixels haut droite bas gauche
+
+Éditeur : Laurent REYNAUD
+Date : 22-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases en HTML & CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="042_image&gestionFond.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Images de fond et gestion du fond</h1>
+		<div class="div1">
+			<p class="p1">Un premier paragraphe</p>
+			<p><br><br><br><br><br><br><br><br><br><br></p>
+			<p><br><br><br><br><br><br><br><br><br><br></p>
+			<p><br><br><br><br><br><br><br><br><br><br></p>
+			<p><br><br><br><br><br><br><br><br><br><br></p>
+			<p><br><br><br><br><br><br><br><br><br><br></p>
+			<p><br><br><br><br><br><br><br><br><br><br></p>
+			<p><br><br><br><br><br><br><br><br><br><br></p>
+			<p class="p2">Un deuxième paragraphe </p>
+		</div>
+	</body>
+</html>
