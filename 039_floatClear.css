@@ -1,0 +1,27 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	background-color: orange;
+	height: 50px;
+	width: 200px;
+	z-index: 100;  /*les éléments html p sont à la même position horizontale que l'élément html h1...*/
+	float: right;  /*les éléments html p sont à droite de la page @*/
+	clear: left;  /*...mais avec la propriété clear, les éléments p ne sont plus à la même position que l'élément h1*/
+	overflow: auto;  /*au choix du navigateur de la partie des éléments dépassant leurs contenus*/
+}
+
+h1{
+	z-index: 1000;  /*l'élément html h1 est à la même position horizontale que les éléments html p*/
+	float: left;  /*l'élément html h1 est à gauche de la page @*/
+}
+
+.p1{
+	left: 50px;
+	float: right; /*l'élément html p1 est à droite du block d'éléments html p*/
+}
+
+.p2{
+	clear: right;  /*l'élément html p2 n'est plus à côté de l'élément html p1*/
+}

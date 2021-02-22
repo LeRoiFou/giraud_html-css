@@ -1,0 +1,38 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	height: 400px;
+	width:	500px;
+	background-color: #088;
+	border: 20px ridge black;  /*propriété 'courte' de border comprenant les 3 valeurs*/
+	border-radius: 15px;  /*arrondi de la bordure*/
+	padding: 100px 20px 50px 130px;  /*agrandissement des marges intérieures : haut droite bas et gauche*/
+	margin: 100px auto; /*centrage des marge gauche et droite ssi les propriétés height et width sont en valeur absolue*/
+}
+
+.p1{
+	height: 100px;
+	width: 200px;
+	background-color: blue;
+	border-width: 2px;  /*largeur de la bordure du haut*/
+	border-style: inset;  /*style de la bordure du haut*/
+	border-color: yellow;  /*couleur de la bordure du haut*/
+	border-top-left-radius: 5px; /*arrondi de la bordure en haut à gauche*/
+	border-bottom-right-radius: 5px;  /*arrondi de la bordure en bas à droite*/
+	padding-top: 20px;  /*agrandissement de la marge intérieure haute */
+	padding-left: 50px;  /*agrandissement de la marge intérieure gauche*/
+	margin: 0px auto;  /*centrage des marges gauche et droite ssi les propriétés height et width sont en valeur absolue*/
+}
+
+.p2{
+	border-top-width: 2px;  /*largeur de la bordure du haut*/
+	border-top-style: groove;  /*style de la bordure du haut*/
+	border-top-color: teal;  /*couleur de la bordure du haut*/
+	border-left-width: 5px;  /*largeur de la bordure de gauche*/
+	border-left-style: solid;  /*style de la bordure de gauche*/
+	border-left-color: lime;  /*couleur de la bordure de gauche*/
+	padding:  100px 50px;  /*agrandissement de 100 px pour les marges haute & basse et de 50 px pour les marges gauche & droite*/
+	margin: 100px 50px;  /*agrandissement de 100 px pour les marges haute & basse et de 50 px pour les marges gauche & droite*/
+}

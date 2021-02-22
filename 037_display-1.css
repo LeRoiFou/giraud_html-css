@@ -1,0 +1,13 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+p{
+	display: inline;  /*les éléments p vont se retrouver aligner les uns à côté des autres*/
+	border: 1px solid black;
+}
+
+span{
+	display: block;  /*le span va s'aligner sur toute la largeur de la page web et sur une ligne distincte du titre*/
+	border: 1px solid black;
+}

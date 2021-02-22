@@ -1,0 +1,25 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	height: 400px;
+	width:	500px;
+	background-color: #088;
+	border: 20px ridge black;  /*propriété 'courte' de border comprenant les 3 valeurs*/
+	border-radius: 15px;  /*arrondi de la bordure*/
+	box-shadow: 5px 5px 10px black;  /*ombre de la boîte*/
+}
+
+.p1{
+	height: 100px;
+	width: 200px;
+	background-color: blue;
+	border-width: 2px;  /*largeur de la bordure du haut*/
+	border-style: inset;  /*style de la bordure du haut*/
+	border-color: yellow;  /*couleur de la bordure du haut*/
+	border-top-left-radius: 5px; /*arrondi de la bordure en haut à gauche*/
+	border-bottom-right-radius: 5px;  /*arrondi de la bordure en bas à droite*/
+	box-shadow: 4px 3px 7px black inset;  /*ombre de la boîte*/
+}
+

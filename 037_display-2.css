@@ -1,0 +1,21 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+h1{
+	display: none;  /*l'élément h1 ne s'affiche plus*/
+}
+
+p{
+	border: 1px solid black;
+}
+
+.p1{
+	display: inline-block;  /*l'élément p1 est de type inline*/
+	width: 65%;  /*la propriété width est de type block*/
+}
+
+.p2{
+	display: inline-block;  /*l'élément p2 est de type inline*/
+	width: 30%;  /*la propriété width est de type block*/
+}

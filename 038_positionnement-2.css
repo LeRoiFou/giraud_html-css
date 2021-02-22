@@ -1,0 +1,25 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	background-color: orange;
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	height: 500px;
+	width: 400px;
+	z-index: 100;
+}
+
+h1{
+	position:fixed;
+	top:10px;
+	left: 130px;
+	z-index: 1000;
+}
+
+.p1{
+	position: relative;
+	top: 150px;  /*déplacement élément p1 à 150 px vers le bas -> impossible car la valeur de la propriété position est 'static'*/
+}

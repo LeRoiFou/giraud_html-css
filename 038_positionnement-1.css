@@ -1,0 +1,30 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	background-color: orange;
+	position: relative;
+	height: 500px;
+	width: 500px;
+}
+
+h1{
+	position:fixed;  /*position fixée même lorsqu'on descend la page avec la barre de défilement*/
+}
+
+.p1{
+	position: static;
+	top: 150px;  /*déplacement élément p1 à 150 px vers le bas -> impossible car la valeur de la propriété position est 'static'*/
+}
+
+.p2{
+	position: relative;
+	left: 150px;  /*déplacement élément p2 à 150 px vers la droite*/
+}
+
+.p3{
+	position:absolute;  /*position héritant du sélecteur parent 'div' dont la position est relative*/
+	bottom: 0px;  /*position en bas*/
+	right: 0px;  /*et position à droite*/
+}

@@ -1,0 +1,39 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [39/71] - Les propriétés float et clear
+Lien : https://www.youtube.com/watch?v=i5HR37Vv9v0&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=39
+
+La propriété float permet de 'flotter' les éléments HTML à droite (right) ou à gauche (left)
+
+La propriété clear permet d'empêcher des éléments de venir se positionner auprès d'éléments flottants, et qui prend les valeurs suivantes :
+. left -> va neutraliser un float left
+. right -> va neutraliser un float right
+. both -> va neutraliser un float left et un float right
+
+La propriété overflow permet de cacher la partie de ou des élément(s) qui dépassent leur(s) conteneur(s), qui peut prendre les valeurs suivantes :
+. visible : valeur par défaut dont rien ne sera caché, rien ne sera coupé
+. hidden : tout ce qui dépasse sera coupé
+. scroll : tout ce qui dépasse sera caché mais il y aura une barre de défilement qui permettra d'afficher le contenu caché
+. auto : au choix du navigateur
+. initial / inherit
+
+Éditeur : Laurent REYNAUD
+Date : 22-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases en HTML & CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="039_floatClear.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Position des éléments en HTML</h1>
+		<div class="div1">
+			<p class="p1">Un premier paragraphe <br>avec beaucoup de <br>contenu</p>
+			<p class="p2">Un deuxième paragraphe </p>
+		</div>
+	</body>
+</html>
