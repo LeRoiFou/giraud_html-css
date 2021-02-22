@@ -1,0 +1,17 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+	margin: 0px;  
+	padding: 0px
+}
+
+/*les propriétés margin et padding ont une valeur absolue de 0 px car l'élément div dispose de
+la propriétét position en valeur 'absolute' car hérite de la valeur position du sélecteur parent en HTML
+(voir cours 038_positionnement-1)*/
+
+.div1{
+	background-color: orange;
+	height: 200px;
+	position: absolute;  /*centrage horizontal à la page @*/
+	left: 30%;
+	right: 30%;
+}

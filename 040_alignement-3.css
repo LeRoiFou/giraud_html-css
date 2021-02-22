@@ -1,0 +1,14 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	background-color: orange;
+	height: 200px;
+	width: 400px;
+	float: left;
+}
+
+h1{
+	float: left;
+}
