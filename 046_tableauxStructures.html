@@ -1,0 +1,54 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [46/71] - Créer un tableau structuré
+Lien : https://www.youtube.com/watch?v=cYA0h7RUZ-8&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=46
+
+Un tableau structuré comprend 3 parties déclarées en html dans l'ordre suivant :
+. élément thead qui concerne l'en-tete du tableau
+. élément tfoot qui concerne le piede page du tableau (totaux...)
+. élément tbody qui concerne le corps du tableau
+
+Éditeur : Laurent REYNAUD
+Date : 23-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="046_tableauxStructures.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Les tableaux structurés</h1>
+		<table>  <!-- tableau -->
+			<thead>
+				<tr>
+					<th>Mois</th>
+					<th>Dépense</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td>SOMME</td>
+					<td>1 350 €</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>Janvier</td>
+					<td>450 €</td>
+				</tr>
+				<tr>
+					<td>Février</td>
+					<td>520 €</td>
+				</tr>
+				<tr>
+					<td>Mars</td>
+					<td>380 €</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

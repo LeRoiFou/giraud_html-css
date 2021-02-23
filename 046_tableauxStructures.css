@@ -1,0 +1,29 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+thead th, tfoot td{
+	background-color: rgb(110, 200, 40);
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+td, th{
+	border: 1px solid black;
+	padding: 10px; 
+
+th{
+	font-weight: normal;
+}
+
+tr:nth-child(even){
+	background-color: #EEE;
+}
+
+tr:nth-child(odd){
+	background-color: #CCC;
+}

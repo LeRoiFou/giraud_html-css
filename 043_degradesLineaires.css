@@ -1,0 +1,14 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	/*de la droite en haut vers la gauche en bas on passe du rouge à l'orange ... puis à la couleur bleue*/
+	background: linear-gradient(to bottom right, red, orange, yellow, purple, rgba(0, 0, 255, 0.5));
+}
+
+.div2{
+	/*avec un 180 degrés, le dégradé linéaire part du haut vers le bas mais sans indication, le dégradé part
+	part défaut du haut vers le bas*/
+	background: linear-gradient(180deg, red, olive, yellow, green)
+}

@@ -1,0 +1,43 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [45/71] - Créer un tableau simple
+Lien : https://www.youtube.com/watch?v=TLzzLl-BQuE&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=45
+
+Pour créer un tableau simple, on a besoin de 3 éléments :
+. table : définit le tableau en soi
+	. tr (table row) : introduction d'une nouvelle ligne dans le tableau
+		. td (table data) : ajout de cellules dans une ligne (colonnes)
+
+Éditeur : Laurent REYNAUD
+Date : 23-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="045_tableauSimple.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Les tableaux simples</h1>
+		<table>  <!-- tableau -->
+			<tr class='impair'> <!-- ligne 1 -->
+				<td>Nom</td> <!-- colonne 1 -->
+				<td>Prénom</td> <!-- colonne 2 -->
+				<td>Age</td> <!-- colonne 3 -->
+			</tr>
+			<tr class='pair'> <!-- ligne 2 -->
+				<td>Gerald</td> <!-- colonne 1 -->
+				<td>John</td> <!-- colonne 2 -->
+				<td>44</td> <!-- colonne 3 -->
+			</tr>
+			<tr class='impair'> <!-- ligne 3 -->
+				<td>Moriarty</td> <!-- colonne 1 -->
+				<td>Erin</td> <!-- colonne 2 -->
+				<td>24</td> <!-- colonne 3 -->
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/*Collage des bordures entre cellules de l'élément html table*/
+table{
+	border-collapse: collapse;
+}
+
+/*Bordures à chaque élément hmtl td*/
+td{
+	border: 1px solid black;
+	padding: 10px; /*espacement du contenu dans les cellules*/
+}
+
+.pair{
+	background-color: orange;  /*couleur orange pour les lignes paires*/
+}
+
+.impair{
+	background-color: #069;  /*couleur bleu vert pour les lignes impaires*/
+}

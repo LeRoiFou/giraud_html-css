@@ -1,0 +1,45 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [44/71] - Dégradés radiaux
+Lien : https://www.youtube.com/watch?v=_lCsA9Un15M&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=443
+
+Il existe deux types de dégradés :
+. les dégradés linéaires qui suivent une direction, par exemple de la gauche vers la droite
+. les dégradés radiaux qui vont partir d'un point central
+
+Concernant les dégradés radiaux, on dipose de deux valeurs de formes de dégradés :
+. ellipse (valeur par défaut)
+. circle
+
+On peut également donner pour chaque couleur le % d'occupation du bloc concerné
+
+On peut par ailleurs, définir la position et la taille d'un dégradé radial en CSS
+Pour la position d'un dégradé il faut donner un mot-clé et paire de coordonnées. Il existe 4 types de mot-clé :
+. closest-side -> le dégradé va toucher le côté le plus proche de son centre dans le cadre d'un cercle ou les deux côtés les plus proches de son centre dans le cadre d'une ellipse
+. farthest-side -> le dégradé va toucher le côté le plus éloigné de son centre dans le cadre d'un cercle ou les deux côtés les plus éloignés de son centre dans le cadre d'une ellipse
+. closest-corner -> le dégradé va toucher le coin le plus proche de son centre
+. farthest-corner -> le dégracdé va toucher le coin le plus éloigné de son centre
+La paire de coordonnées peut être donnée soit en px soit en % qui correspond à l'emplacement du centre du dégradé par rapport au point supérieur gauche de l'élément auquel il est appliqué
+
+Éditeur : Laurent REYNAUD
+Date : 23-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases en HTML & CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="044_degradesRadiaux-2.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Les dégradés radiaux</h1>
+		<div class="div1">
+			<p class="p1">Un premier paragraphe</p>
+			<p class="p2">Un deuxième paragraphe </p>
+		</div>
+		<div class="div2">
+		</div>
+	</body>
+</html>

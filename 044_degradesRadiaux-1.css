@@ -1,0 +1,17 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	float:left;
+	width: 400px;
+	height: 400px;
+	background: linear-gradient(to right, blue 10%, purple 30%, red 60%);
+}
+
+.div2{
+	float:right;
+	width: 400px;
+	height: 400px;
+	background: radial-gradient(circle, blue 10%, purple 30%, red 60%);
+}
