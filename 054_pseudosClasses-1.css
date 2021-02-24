@@ -1,0 +1,15 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+h1:hover{
+	color: orange;
+}
+
+a:link{
+	color:yellow;
+}
+
+a:visited{
+	color:green;
+}

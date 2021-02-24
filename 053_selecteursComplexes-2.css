@@ -1,0 +1,8 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/*Sélecteur ',': s'applique ici aux propriétés h1 et p*/
+h1, p{
+	border: 1px solid black;
+}

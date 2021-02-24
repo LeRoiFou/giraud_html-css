@@ -1,0 +1,9 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+
+/*Seuls les éléments html h2 contenus dans les éléments div auront des caractères de couleur bleue*/
+div > h2{
+	color: blue;
+}

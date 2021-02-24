@@ -1,0 +1,8 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/*Sélecteur universel : s'applique à tous les éléments html*/
+*{
+	border: 1px solid black;
+}

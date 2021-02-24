@@ -1,0 +1,13 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/*Tous les éléments enfants p d'un élément html en nombre pair (=even en anglais) sont de couleur violette*/
+p:nth-child(even){
+	color: purple;
+}
+
+/*Tous les 3ème éléments enfants p d'un élément html sont de couleur verte*/
+p:nth-child(3){
+	color: green;
+}

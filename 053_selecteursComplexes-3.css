@@ -1,0 +1,13 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/*Ciblage de certains éléments html : ici tous les éléments 'p' contenus dans l'élément html div*/
+
+div p{
+	color: blue;
+}
+
+body h1{
+	color: red;
+}

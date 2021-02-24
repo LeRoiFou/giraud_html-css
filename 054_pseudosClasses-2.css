@@ -1,0 +1,11 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+p:first-child{
+	color:orange;
+}
+
+p:last-child{
+	color: green;
+}

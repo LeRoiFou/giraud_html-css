@@ -1,0 +1,12 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/*Uniquement le paragraphe qui suit l'élément html div aura des caractères de couleur bleue car ils sont au même niveau*/
+div + p{
+	color: blue;
+}
+
+body h1{
+	color: red;
+}

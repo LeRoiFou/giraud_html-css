@@ -1,0 +1,15 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/*Le sélecteur CSS d'attribut est toujours entre '[]' et IL DOIT ETRE COLLE au sélecteur CSS concerné :
+ici tous les éléments contenus dans l'élément html div seront encadrés*/
+div[class] {
+	border: 1px solid black;
+}
+
+/*Sélecteur CSS d'attribut : ici seul l'attribut qui a pour valeur "p3" aura les caractères de couleur bleue
+des éléments html concernés*/
+p[class="p3"]{
+	color: blue;
+}

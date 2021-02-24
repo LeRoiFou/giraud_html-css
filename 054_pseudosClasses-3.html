@@ -1,0 +1,41 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [54/71] - Pseudo classes CSS
+Lien : https://www.youtube.com/watch?v=Iwnu6TTMLlM&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=54
+
+Les pseudos classes se reconnaissent en CSS par le fait qu'ils commencent toujours par ':'
+:nth-child() -> voir exemples en pages HTML et CSS au regard de sa particularité...
+
+Si un élément disposent de plusieurs pseudo classes, il faut respecter l'ordre ci-dessus pour que ces pseudos soient tous activables
+
+Éditeur : Laurent REYNAUD
+Date : 24-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="054_pseudosClasses-3.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Pseudos classes en CSS</h1> <!-- 1er élément enfant de l'élément body -->
+		<h2>Un premier titre</h2> <!-- 2ème élément enfant de l'élément body -->
+		<!-- Premier paragraphe : impair et élément enfant de l'élément body-->
+		<p>Un paragraphe</p> <!-- 3ème élément enfant de l'élément body -->
+		<!-- Deuxième paragraphe : pair et élément enfant de l'élément body-->
+		<p>Un lien vers le <a href="https://www.pierre-giraud.com/html-css-apprendre-coder-cours/">site du cours</a></p>
+		<div>
+			<!-- Troisième paragraphe : impair et élément enfant de l'élément div -->
+			<p>p1</p> <!-- 1er élément enfant de l'élément div -->
+			<!-- Quatrième paragraphe : pair et élément enfant de l'élément div -->
+			<p>p2</p> <!-- 2ème élément enfant de l'élément div -->
+			<!-- Cinquième paragraphe : impair et élément enfant dde l'élément div -->
+			<p>p3</p> <!-- 3ème élément enfant de l'élément div -->
+		</div>
+		<!-- Sixième paragraphe : pair et élément enfant de l'élément body-->
+		<p>En dehors du div</p>
+	</body>
+</html>

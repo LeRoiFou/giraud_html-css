@@ -1,0 +1,30 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [48/71] - Opérations sur les images
+Lien : https://www.youtube.com/watch?v=ZpzCecyIjqo&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=48
+
+L'élément img est de type inline donc il se positionne à côte d'autres contenus html. Afin d'éviter qu'une autre image se positionne jusqu'à côté de la 1ère image, il existe 3 possibilités :
+. soit l'élément img devient un type block -> exemple utilisé ici
+. soit on utilise la propriété css display
+. soit on utilise les propriétés css float et clear
+
+Éditeur : Laurent REYNAUD
+Date : 24-02-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="048_operationsImages-1.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Opérations sur les images</h1>
+		<div> <!-- la première image est dans un type block -->
+			<img src="images/sky.png" alt="un ciel">
+		</div>
+		<img src="images/earth.png" alt="la Terre"> <!-- cette image est de type inline -->
+	</body>
+</html>
