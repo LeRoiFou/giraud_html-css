@@ -1,0 +1,29 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+div{
+	border: 1px solid black;
+}
+
+div::before{
+	content: "Du texte ajouté au début de mon div avec le pseudo élément '::before'";
+}
+
+div::after{
+	content: url('images/sky.png');
+}
+
+p::first-letter{
+	font-size: 30px;
+	color: #A92;
+}
+
+p::first-line{
+	font-size: 30px;
+	color: #289;
+}
+
+p::selection{
+	background-color: orange;
+}

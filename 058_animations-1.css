@@ -1,0 +1,19 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	/*Animation simple avec les deux valeurs : animation-name et animation-duration
+	en recourant à la règle @keyframes pour la valeur animation-name*/
+	animation-name: chgt-couleur;
+	animation-duration: 5s;
+}
+
+/*Règle @keyframes pour la valeur animation-name*/
+@keyframes chgt-couleur{
+	from {background-color: blue;}
+	to {background-color: orange;}
+}

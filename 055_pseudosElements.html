@@ -1,0 +1,42 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [55/71] - Pseudo éléments CSS
+Lien : https://www.youtube.com/watch?v=HKan6nabHs4&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=55
+
+Les pseudos éléments se reconnaissent en CSS par le fait qu'ils commencent toujours par '::', il existe 5 éléments CSS :
+
+::first-letter -> sélection de la 1ère lettre contenue dans un élément html 
+Ne s'applique qu'à des éléments html de type block. Ne s'applique pas pour quelques propriétés CSS (à toi de les découvrir)
+
+::first-line -> séléction de la 1ère ligne contenue dans un élément html
+Ne s'applique qu'à des éléments html de type block. Ne s'applique pas pour quelques propriétés CSS (à toi de les découvrir)
+
+::selection -> sélection de la partie sélectionnée par l'utilisateur soit par le pointeur de la souris, soit par un double clique
+Ne s'applique pas pour quelques propriétés CSS (à toi de les découvrir)
+
+::before -> insérer du contenu au début d'un élément html
+
+::after -> insérer du contenu à la fin d'un élément html
+
+Éditeur : Laurent REYNAUD
+Date : 25-02-2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="055_pseudosElements.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Pseudos éléments en CSS</h1> <!-- 1er élément enfant de l'élément body -->
+		<div>
+			<p>Un <br>premier <br>paragraphe</p>
+			<p>Ceci est le <br>deuxième <br>paragraphe</p>
+			<p>Et voilà un <br>troisième <br>paragraphe</p>
+		</div>
+		<p>Un paragraphe hors div</p>
+	</body>
+</html>

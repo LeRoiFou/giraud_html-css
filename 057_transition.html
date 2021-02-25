@@ -1,0 +1,51 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [57/71] - Les transitions CSS
+Lien : https://www.youtube.com/watch?v=KOH-SnAn1K8&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=57
+
+Les transitions permettent de modifier la valeur d'une propriété CSS de manière 'fluide' dans le temps
+Par exemple : changement progressif de la couleur d'un texte
+
+Il existe deux types de transitions : les transitions simples et les transitions complexes
+Cette propriété CSS regroupe 4 valeurs qui sont :
+. transition-delay -> quand doit commencer la transition (valeur en nombre en secondes)
+. transition-duration -> durée de la transition (valeur en nombre en secondes)
+. transition-property -> définit la propriété à laquelle la transition va s'appliquer
+. transition-timing-function -> définit la courbe de vitesse de la transition et qui dispose de 5 propriétés :
+	-> linear : transition linéaire
+	-> ease-in : la transition commence lentement
+	-> ease-out : la transition se termine lentement
+	-> ease-in-out : la transition commence et se termine lentement
+	-> ease : la transition commence lentement puis accélère au milieu et se termine lentement
+
+Pour utiliser une transition simple (short-hand) seules les valeurs transition-duration et transition-property doivent obligatoirement être précisées.
+Pour utiliser une transition complexe, on utilise les 4 valeurs citées ci-dessus
+
+Les transitions se font notamment avec la pseudo-class ':hover'
+
+Éditeur : Laurent REYNAUD
+Date : 25-02-2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="057_transition.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Les transitions CSS</h1>
+		<div class='div1'>
+			<p>Un premier paragraphe dans div1</p>
+			<p>Un deuxième paragraphe dans div1</p>
+			<p>Un troisième paragraphe dans div1</p>
+		</div>
+		<div class='div2'>
+			<p>Un premier paragraphe dans div2</p>
+			<p>Un deuxième paragraphe dans div2</p>
+			<p>Un troisième paragraphe dans div2</p>
+		</div>
+	</body>
+</html>

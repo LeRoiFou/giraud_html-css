@@ -1,0 +1,27 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+#fb, #tw, #lk{
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: absolute;
+}
+
+#fb{
+	background-image: : url("images/facebook.png");
+	background-position: 50px 0px;
+}
+
+#tw{
+	background-image: : url("images/twitter.png");
+	background-position: 100px 0px;
+	left: 200px;
+}
+
+#lk{
+	background-image: : url("images/linkedin.png");
+	background-position: 150px 50px;
+	left: 400px;
+}

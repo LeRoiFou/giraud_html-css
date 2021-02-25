@@ -1,0 +1,33 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	/*Exemple d'une transition simple avec pour valeurs -> transition-property et transition-duration
+	On passe d'une largeur de 200px à 400px en 2 secondes et
+	d'une couleur bleue à violette en 5 secondes*/
+	transition: width 2s, background-color 5s;
+}
+
+/*Ne fonctionnent que lorsque la souris passe sur l'élément div dans la page @*/
+.div1:hover{
+	width: 400px;
+	background-color: purple;
+}
+
+.div2{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	/*Exemple d'une transition complexe avec les 4 valeurs requises*/
+	transition: 3s width 2s ease, 3s background-color 5s ease;
+}
+
+/*Ne fonctionnent que lorsque la souris passe sur l'élément div dans la page @*/
+.div2:hover{
+	width: 400px;
+	background-color: purple;
+}
