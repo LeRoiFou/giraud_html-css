@@ -1,0 +1,94 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [62/71] - Les attributs des formulaires
+Lien : https://www.youtube.com/watch?v=e4g_yW87wXA&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=63
+
+Présentation de différents attributs pour un formulaire en HTML :
+
+. Attribut autocomplete qui a deux valeurs :
+		-> on : le champ est précomplété de la précédente saisie faite
+		-> off : le champ n'est pas précomplété
+
+. Attribut autofocus : la barre de sélecteur de la souris est automatiquement affectée au champ choisi
+
+. Attributs min et max : valeurs minimales et maximales attendues pour un champ (par principe pour les types de valeur 'number')
+
+. Attribut placeholder : donne un exemple de remplissage dans un champ
+
+. Attributs checked et selected : préselectionnent une ou plusieurs options
+	-> checked : pour les zones d'options (radio et checkbox)
+	-> selected : pour les listes d'options
+
+. Attribut required : champ de formulaire à compléter obligatoirement sinon le formulaire ne peut pas être renvoyé
+
+Éditeur : Laurent REYNAUD
+Date : 08-03-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Les attributs des formulaires</h1>
+		<form method="post" action="traitement.php">  <!-- Envoi du formulaire vers un fichier .php -->
+			
+			<label for="prenom">Entrer votre prénom</label>
+			<input type="text" name="prenom" id="prenom" autocomplete="on"><br><br>
+
+			<label for="nom">Entrer votre nom</label>
+			<input type="text" name="nom" id="nom" autofocus="autofocus"><br><br>
+
+			<label for="nombre">Choisir un chiffre entre 1 et 10</label>
+			<input type="number" name="nombre" id="nombre" min="1" max="10"><br><br>
+
+			<label for="surnom">Donner un surnom</label>
+			<input type="text" name="surnom" id=surnom placeholder="Ex: Tartampion"><br><br>
+
+			Homme et femme ?<br>	
+			<input type="radio" id="homme" name="sexe" value="homme" checked="checked">
+			<label for="homme">Un homme</label><br>	
+			<input type="radio" id="femme" name="sexe" value="femme">
+			<label for="femme">Une femme</label><br><br>
+
+			Quel(s) sport(s) pratiquez-vous ?<br>
+			<input type="checkbox" name="sport" value="natation" id="natation" checked="checked">
+			<label for="natation">Natation</label><br>
+			<input type="checkbox" name="sport" value="course" id="course">
+			<label for="course">Course à pied</label><br>
+			<input type="checkbox" name="sport" value="velo" id="velo" checked="checked">
+			<label for="velo">Vélo</label><br><br>
+
+			Où habitez-vous ?<br>
+			<select name="pays"> 
+				<optgroup label="Europe">	
+						<option value="France">France</option>
+						<option value="Belgique">Belgique</option>
+						<option value="Italie" selected="selected">Italie</option>
+						<option value="Espagne">Espagne</option>
+						<option value="Allemagne">Allemagne</option>
+						<option value="Angleterre">Angleterre</option>
+						<option value="Luxembourg">Luxembourg</option>
+				</optgroup>
+				<optgroup label="Amerique">
+						<option value="Canada">Canada</option>
+						<option value="Etats-Unis">États-Unis</option>
+						<option value="Mexique">Mexique</option>
+				</optgroup>
+				<optgroup label="Afrique">
+						<option value="Maroc">Maroc</option>
+						<option value="Tunisie">Tunisie</option>
+						<option value="Algerie">Algérie</option>
+				</optgroup>
+			</select><br><br>
+
+			<label for="ville">Ville où vous résidez</label>
+			<input type="text" name="ville" id="ville" required="required"><br><br>
+
+			<input type="submit" value="Envoyer">
+		</form>
+	</body>
+</html>

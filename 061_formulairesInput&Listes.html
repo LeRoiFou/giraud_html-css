@@ -1,0 +1,103 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [61/71] - Types d'input et listes d'options
+Lien : https://www.youtube.com/watch?v=r7o3TqLtgIg&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=62
+
+L'élément input peut avoir pour l'attribut type, la valeur :
+. 'text' pour la saisie d'un champ monoligne
+. 'password' pour la saisie cachée du texte par des '*' ou par des '.'
+. 'date' pour la saisie de dates
+. 'email' pour une adresse email
+. 'url' pour un lien @
+. 'number' pour une saisie ne comprenant que des nombres
+. 'radio' pour des boutons de type radio (bouton d'option)
+. 'checkbox' pour des options à choisir mais par rapport à la valeur radio, l'utilisateur peut choisir
+aucun choix ou un choix ou plusieurs choix
+. 'submit' pour l'envoi des données du formulaire
+
+Les listes d'options sont déclarées sous la forme d'un attribut 'select'
+
+Éditeur : Laurent REYNAUD
+Date : 08-03-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Formulaires : les éléments input et listes d'options</h1>
+		<form method="post" action="traitement.php">  <!-- Envoi du formulaire vers un fichier .php -->
+			
+			<label for="prenom">Entrez votre prénom</label>
+			<input type="text" id="prenom" name="prenom"><br> <!-- champ texte monoligne -->
+
+			<label for="pass">Entrer un mot de passe</label>
+			<input type="password" id="pass" name="pass"><br> <!-- champ mot de passe -->
+
+			<label for="naissance">Votre date de naissance</label>
+			<input type="date" id="naissance" name="naissance"><br>	<!-- champ date -->
+
+			<label for="email">Entrer votre adresse email</label>
+			<input type="email" id="email" name="mail"><br> <!-- champ email -->
+
+			<label for='site'>Entrer votre site @</label>
+			<input type="url" id='site' name="site"><br> <!-- champ url -->
+
+			<label for="tel">Entrer un n° de téléphone</label>
+			<input type="number" id="tel" name="tel"><br><br> <!-- champ nombres -->
+
+			Homme et femme ?<br>	
+			<input type="radio" id="homme" name="sexe" value="homme"> <!-- champ boutons de type radio -->
+			<label for="homme">Un homme</label><br>	
+			<input type="radio" id="femme" name="sexe" value="femme"> <!-- champs boutons de type radio -->
+			<label for="femme">Une femme</label><br><br>	
+
+			Majeur ou mineur ?<br>
+			<input type="radio" id="mineur" name="age" value="mineur"> <!-- champ boutons de type radio -->
+			<label for="mineur">Mineur</label><br>
+			<input type="radio" id="majeur" name="age" value="majeur"> <!-- champ boutons de type radio -->
+			<label for="majeur">Majeur</label><br><br>
+
+			Quel(s) sport(s) pratiquez-vous ?<br>
+			<input type="checkbox" name="sport" value="natation" id="natation"> <!-- champ boutons de type checkbox -->
+			<label for="natation">Natation</label><br>
+			<input type="checkbox" name="sport" value="course" id="course"> <!-- champ boutons de type checkbox -->
+			<label for="course">Course à pied</label><br>
+			<input type="checkbox" name="sport" value="velo" id="velo"> <!-- champ boutons de type checkbox -->
+			<label for="velo">Vélo</label><br><br>
+
+			Où habitez-vous ?<br>
+			<select name="pays"> <!-- Liste d'option -->
+				<optgroup label="Europe">	
+						<option value="France">France</option>
+						<option value="Belgique">Belgique</option>
+						<option value="Italie">Italie</option>
+						<option value="Espagne">Espagne</option>
+						<option value="Allemagne">Allemagne</option>
+						<option value="Angleterre">Angleterre</option>
+						<option value="Luxembourg">Luxembourg</option>
+				</optgroup>
+				<optgroup label="Amerique">
+						<option value="Canada">Canada</option>
+						<option value="Etats-Unis">États-Unis</option>
+						<option value="Mexique">Mexique</option>
+				</optgroup>
+				<optgroup label="Afrique">
+						<option value="Maroc">Maroc</option>
+						<option value="Tunisie">Tunisie</option>
+						<option value="Algerie">Algérie</option>
+				</optgroup>
+			</select><br><br>
+
+
+			<label for="prez">Une petite présentation ?</label>
+			<textarea id="prez" name="presentation"></textarea><br>	<!-- champ multiligne -->
+
+			<input type="submit" value="Envoyer"> <!-- valeur de type submit -->
+		</form>
+	</body>
+</html>

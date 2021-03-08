@@ -1,0 +1,34 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [60/71] - Créer un formulaire HTML simple
+Lien : https://www.youtube.com/watch?v=ksQeyrgwddw&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=61
+
+Pour créer un formulaire il faut recourir aux balises ouvrantes et fermantes 'form' et dont la balise ouvrante
+doit avoir deux attributs : 
+. method pour l'envoi des données qui peut avoir deux valeurs : get et post (valeur post généralement utilisée);
+. action qui sert à définir une page de traitement des données
+
+Éditeur : Laurent REYNAUD
+Date : 08-03-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Créer un formulaire simple en HTML</h1>
+		<form method="post" action="traitement.php">  <!-- Envoi du formulaire vers un fichier .php -->
+			<label for="prenom">Entrez votre prénom</label>
+			<input type="text" id="prenom" name="prenom"><br> <!-- champ monoligne -->
+
+			<label for="prez">Une petite présentation ?</label>
+			<textarea id="prez" name="presentation"></textarea><br>	<!-- champ multiligne -->
+
+			<input type="submit" value="Envoyer"> <!-- bouton d'exécution -->
+		</form>
+	</body>
+</html>
