@@ -1,0 +1,17 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+	width: 100%;
+}
+
+div, p{
+	width: 50%; /*div est à 50 % de la taille de la fenêtre et p est à 50 % de la taille de div*/
+	border: 1px solid black;
+}
+
+div{
+	background-color: #08B;
+}
+
+p{
+	background-color: #0B8
+}

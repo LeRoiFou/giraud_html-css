@@ -1,0 +1,54 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [63/71] - Organiser et mettre en forme un formulaire
+Lien : https://www.youtube.com/watch?v=jtmaFUs-HVw&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=64
+
+Organisation des formulaires en HTML :
+. L'élément fieldset permet d'encadrer d'autres éléments du formaire
+. L'élément legend permet de mettre une légende aux éléments du formulaire
+
+Organisation des formulaires en CSS
+
+Éditeur : Laurent REYNAUD
+Date : 09-03-21
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bases CSS et HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="063_formulairesOrganisation.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Organiser et mettre en forme un formulaire</h1>
+		<form method="post" action="traitement.php">  <!-- Envoi du formulaire vers un fichier .php -->
+
+			<fieldset id="section1">
+				<legend>Informations personnelles :</legend>
+				<label for="prenom">Entrer votre prénom</label>
+				<input type="text" id="prenom" name="prenom"><br>
+				<label for="nom">Entrer votre nom</label>
+				<input type="text" id="nom" name="nom"><br>
+				<label for="pseudo">Choissiser votre pseudonyme</label>
+				<input type="text" id="pseudo" name="pseudo"><br>
+			</fieldset>
+
+			<fieldset id="section2">
+				<legend>Informations supplémentaires</legend>
+				Quels sont vos loisirs ?<br>
+				<input type="checkbox" name="hobbies" value="informatique" id="inf">
+				<label for="inf">Informatique</label>
+				<input type="checkbox" name="hobbies" value="sport" id="sport">
+				<label for="sport">Sport</label>
+				<input type="checkbox" name="hobbies" value="voyages" id="voyages">
+				<label for="voyages">Voyages</label>
+				<input type="checkbox" name="hobbies" value="musique" id="musique">
+				<label for="musique">Musique</label>
+				</fieldset>
+
+			<input type="submit" value="Envoyer">
+		</form>
+	</body>
+</html>
